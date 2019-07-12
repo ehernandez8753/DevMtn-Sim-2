@@ -1,0 +1,27 @@
+.mainHouseCont{
+    width: 100%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    background-color: #FEC2C2;
+    justify-content: space-between;
+}
+.mainHouseContLeft{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+    margin: 1%;
+}
+.mainHouseDeleteButton{
+    width: 2%;
+    height: 3%;
+    margin: 1%;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background-color: #FEC2C2;
+}

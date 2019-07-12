@@ -1,26 +1,31 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
+import "./reset.css";
 import './App.css';
+import Header from "./Components/Header/Header.js";
+import Dashboard from "./Components/Dashboard/Dashboard.js";
+import {HashRouter, Link, Switch, Route} from "react-router-dom";
+import routes from "./routes.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Wizard from "./Components/Wizard/Wizard.js";
+
+class App extends Component{
+  constructor(){
+    super();
+  }
+
+  render(){
+    return (
+      <HashRouter>
+        <div className="App">
+          <Header></Header>
+          {routes}
+        </div>
+      </HashRouter>
+      
+    );
+  }
+
 }
 
 export default App;

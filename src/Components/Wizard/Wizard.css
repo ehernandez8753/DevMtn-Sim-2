@@ -1,0 +1,74 @@
+.mainWizard{
+    background-color: #E5F4EC;
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainWizardHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+    width: 94%;
+
+    color: black;
+    font-weight: 900;
+    font-size: 32px;
+}
+.wizardHeaderButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEC2C2;
+    border-style: none;
+    padding: 1%;
+    font-size: 15px;
+    font-weight: 900;
+
+    color: black;
+}
+.wizardContentMainCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    align-items: flex-start;
+}
+.wizardBotEntryCont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.wizardEntryBox{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    line-height: 1.5em;
+}
+.wizardEntryTitle{
+    font-weight: 900;
+    font-size: 19px;
+}
+.wizardBotCont{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 100%;
+}
+.wizardCompleteButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8AEA92;
+    border-style: none;
+    padding:2%;
+    margin: 15% 3% 0 0;
+    font-size: 20px;
+    font-weight: 300;
+
+    color: black;
+}
